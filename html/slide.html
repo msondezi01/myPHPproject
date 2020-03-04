@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
+    <link rel="stylesheet" href="slides.css">
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet"> 
+
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="myWebsite.html">Home</a></li>
+          <li><a href="index.html">Practices</a></li>
+          <li><a href="form.html">Contact</a></li>
+          <li><a href="OurTeam.html">Our Team</a></li> 
+       </ul>
+    </div>
+  </div>
+</nav>
+
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+
+
+
+
+ <div class="slideshow">
+        <img src="images/justice1.jpg">
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--footer-->
+
+
+  <footer>
+   <div class="footer-container">
+    <div class="row">
+      <div class="col-md-5 col-sm-4">
+        <img src="" class="img-responsive" alt="logo">
+        <p></p>
+        <p style="font-family: 'EB Garamond', serif;  color: white;"><i class="fa fa-phone"></i> 021-368-6432 </p>
+        <p><i class="fa fa-envelope-o"></i> <a href="ChazaSotshintshi.co.za">ChazaSotshintshi.co.za</a> </p>
+        <p><i class="fa fa-globe"></i><a href="www.chazaSotshintshi.co.za">www.chazaSotshintshi.co.za</a> </p>
+      </div>
+
+      <div class="col-md-3 col-sm-4">
+        <p style="font-family: 'EB Garamond', serif;  color: white;"></p>
+
+           <div class="slideshow">
+        <img src="images/justice1.jpg">
+    </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4 newsletter">
+        <h1 style="font-family: 'Knewave', cursive; color: white;">Chaza Sotshintshi and Partners Copyright<br> </h1>
+
+
+    </div>
+  </div>
+</div>
+
+</footer>
+</body>
+
+
+<!-- javascript-->
+
+  <script type="text/javascript">
+     function validation(){
+      var Name=document.getElementById("name").value;
+      var Email=document.getElementById("email").value;
+      var Number=document.getElementById("number").value;
+      var City=document.getElementById("city").value;
+      var Message=document.getElementById("message").value;
+
+
+
+      if(Name==" " || Email==" "|| CellNumber ==" "|| City==" " || Message==" ")
+      {
+        alert("Enter the required field");
+        return false;
+      }
+      else if(Name.length<4)
+      {
+        alert("The name must be at least 4 characters");
+        return false;
+      }
+      else if(Number.length<10)
+      {
+        alert("The number must be 10 characters");
+        return false;
+      }
+      else if(Message.length>200)
+      {
+        alert("you message has excedeD the required characters");
+        return false;
+      }
+      else
+      {
+         return true;
+      }
+
+      var display=document.querySelectorAll(".image div")
+
+      for(var i=0;i<display.length;i++)
+      {
+        display[i].onClick=function();
+        {
+          this.classList.toggle("show");
+        }
+      }
+    }
+
+  </script>
+
+<script type="https://code.jquery.com/jquery-3.4.1.min.jsscript"></script>
+// this is 
+<script>
+$(document).ready(function(){
+    var galleryImage = $('.slideshow').find('img').first();
+    var images = [
+        "images/justice1.jpg",
+        "images/justice2.jpg",
+        "images/justice3.jpg",
+        "images/justice4.jpg",
+    ];
+
+    var i = 0;
+    setInterval(function() {
+        i = (i + 1) % images.length;
+        galleryImage.fadeOut(4000, function(){
+            $(this).attr('src', images[i]);
+            $(this).fadeIn(2500);
+        })
+    }, 3000);
+})
+</script>
+
+<script type="js/script.js"></script>
+<script>
+
+  var i = 0;
+  var images = [];
+  var time = "3000";
+
+  images[0]="accident.jpg";
+  images[1]="contract.jpg";
+  images[2]="divorce.png";
+  images[3]="leg.jpg";
+  images[4]="will.png";
+  images[5]="date.png";
+  images[6]="letter.png";
+
+  function displayImg(){
+    document.show.src = images[i];
+
+    if(i < images.length - 1){
+
+      i++;
+    }else{
+      i = 0;
+    }
+    setTimeout("displayImg()",time);
+  }
+
+  window.onload = displayImg;
+
+  </script>
+  <img name="show" width="400px" height="200px">
+
+
+
+</html>
+

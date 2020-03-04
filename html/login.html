@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <form class="register-form" form action="https://formspree.io/mjvvovwz" method="POST">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+          <input type="text" placeholder="Contact number">
+          <input type="text" placeholder="password">
+          <input type="text" placeholder="Re-enter password">
+          <input type="text" placeholder="Occupation">
+          <input type="text" placeholder="user name">
+              <input type="text" placeholder="email id">
+              <button>Create</button>
+              <p class="message">Already Register? <a href="login-form">Login</a>
+              </p>
+        </form>
+        <form class="login-form" action="https://formspree.io/mjvvovwz" method="POST">
+          <input type="text" placeholder="User name" name="name"/>
+            <input type="password" placeholder="password" />
+            <button value="submit">login</button>
+            <p class="message">Not Register? <a href="#">Register</a>
+            </p>
+        </form>
+
+      </div>
+
+    </div>
+
+
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'>
+  </script>
+  <script>
+
+     $('.message a').click(function(){
+       $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+     });
+
+     if ('.form' == true){
+
+          $('form').fadeOut(3000).hide(1000);
+
+          alert("Your Form Was Successful!")
+    }
+     else ('.form' !== true){
+
+          $('.form').Show(2000).fadeIn(1000);
+           
+          
+     }
+
+
+
+
+  </script>
+  </body>
+
+</html>

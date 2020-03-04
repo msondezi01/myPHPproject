@@ -1,0 +1,187 @@
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top_bar{
+  color: #0009;
+  background-color:#0009;
+  width: 1520px;
+  height: 350;
+}
+
+ .container-fluid {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+.bg-1 {
+      background-image: url("images/justice3.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: absolute;
+      background-size: 100%;
+      height:999px;
+  }
+
+  .bg-2 {
+      background-image: url("images/justice.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: absolute;
+      background-size: 100%;
+      height:900px;
+  }
+
+.main {
+
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+
+
+
+}
+
+
+.body2{
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: space-around;
+
+}
+.Box1{
+
+
+  margin: 10px;
+  font-size: 30px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+
+}
+
+.Box2{
+
+  margin: 10px;
+  font-size: 30px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+}
+.Box3{
+
+  margin: 10px;
+  font-size: 30px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+}
+
+.Box4{
+
+  margin: 10px;
+  font-size: 30px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+}
+
+.Box5{
+
+  margin: 10px;
+  font-size: 30px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+}
+
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    letter-spacing: 5px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+    margin-bottom: 0;
+    border-radius: 0;
+    transition:0.7s;
+
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+
+}
+
+.navbar-nav  li a:hover {
+    color: rgba(0,0,0,0.1) !important;
+
+
+}
+
+form{
+   margin: auto;
+   padding: auto;
+   display: flex;
+   flex-direction: column;
+   flex-flow: wrap space-around;
+
+}
+
+.divider {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+p{
+
+  padding: 7px 0 7px 0;
+  font-weight: 500;
+  font-size: 11pt;
+  color: gray;
+
+
+}
+
+.divider .divider-one {
+  background: ;
+
+}
+.divider .divider-two {
+  background: ;
+  
+}
+.divider .divider-three {
+  background: ;
+  
+}

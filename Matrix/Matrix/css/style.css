@@ -1,0 +1,116 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color: gray;
+}
+
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 45px;
+    margin:0;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: skyblue;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3{
+  font-family: 'Varela Round', sans-serif;
+  color: deepskyblue;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+p{
+  font-family: "Driod Serif";
+  line-height: 26px;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  margin-left:20px;
+  margin-right: 20px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  text-transform: uppercase;
+}
+
+a:hover{
+  border: 2px solid white;
+  padding: 4px;
+  background: #2c3e50;
+  color: white;
+
+}
+
+header{
+  background-color: grey;
+  opacity: 0.5;
+  padding: 30px 20px;
+}
+
+nav{
+  background-color: skyblue;
+  padding: 20px;
+  opacity: 0.5;
+}
+
+nav:hover{
+  border-bottom: 2px solid transparent;
+  
+}
+
+
+main{
+  width: 850px;
+  margin: 35px auto;
+}
+
+img{
+  margin: 40px 8px;
+ 
+}
+
+.copyright{
+  font-family: 'Varela Round', sans-serif;
+  float: left;
+}
+
+.message{
+  font-family: 'Varela Round', sans-serif
+  float: right;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.name{
+  color: lemonchiffon;
+  font-weight: 700;
+}
+
+footer{
+  text-transform: uppercase;
+  padding: 0px 20px;
+  background-color: royalblue;
+  color:white;
+  font-size: 14px;
+  letter-spacing: 0.8em;
+  font-weight: 500;
+}

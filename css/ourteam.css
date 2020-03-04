@@ -1,0 +1,187 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+
+    
+
+}
+
+
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  background-image: url("images/justice4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: absolute;
+  background-size: 100%;
+
+}
+.team-section h1{
+  text-transform: uppercase;
+  margin-top: 60px;
+  color: white;
+  font-size: 40px;
+}
+.border{
+  display: block;
+  margin:auto;
+  width: 160px;
+  height: 3px;
+  background: #3498db;
+}
+.ps{
+  margin-bottom: 40px;
+}
+.ps a{
+  display: inline-block;
+  margin:0 30px;
+  width: 160px;
+  overflow: hidden;
+  border-radius:  50%;
+}
+.ps a img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+}
+.ps a:hover > img{
+  filter: none;
+}
+.section{
+  width: 600px;
+  margin:auto;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section:target{
+  height:auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+p{
+
+  padding: 7px 0 7px 0;
+  font-weight: 50px;
+  font-size: 11pt;
+  color: white;
+  
+
+}
+
+
+h1,h2,h3,h4, {
+   color: solid black;
+   display: flex;
+   justify-content: center;
+   font-family:'Ubuntu', sans-serif;
+
+}
+
+
+  .navbar {
+      border: 0;
+      border-radius: 0;
+      letter-spacing: 5px;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.1);
+      margin-bottom: 0;
+      border-radius: 0;
+      transition:0.7s;
+
+  }
+
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+
+}
+
+.navbar-nav  li a:hover {
+    color: rgba(0,0,0,0.1) !important;
+}
+
+.main {
+
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+
+
+
+}
+
+
+footer {
+  background: #1c1c1c;
+  padding-bottom: 5px;
+}
+footer .fa {
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 5px;
+}
+footer h3 {
+  padding-bottom: 10px;
+}
+footer .newsletter p {
+  padding-bottom: 10px;
+}
+footer .form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+footer .form-control:focus,
+footer .form-control:hover {
+  color: #fff;
+    background: #806040;
+    border-color: transparent;
+}
+footer .input-group-addon {
+  background: #fff;
+}
+footer a, footer a:visited {
+  font-size: 14px;
+  color: #999;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+  header{
+
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.1);
+      margin-bottom: 0;
+      border-radius: 0;
+  }

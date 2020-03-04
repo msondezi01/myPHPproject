@@ -1,0 +1,397 @@
+*{
+  margin:0;
+  padding: 0;;
+  box-sizing: border-box;
+}
+
+body{
+      background-image: url("images/justice3.jpg");
+      font: 13px 'Montserrat', sans-serif;
+      line-height: 1.8;
+      color: black;
+
+}
+.menu {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+
+}
+
+h1{
+
+font-family: 'Knewave', cursive;
+
+
+}
+
+.Box1{
+
+  margin: 10px;
+  font-size: 30px;
+  width: 650px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+
+}
+
+
+.social-links > ul
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-top: 100%;
+}
+.social-links > ul li
+{
+  list-style: none;
+  margin: 0 40px;
+}
+.social-links > ul li a .fa
+{
+  font-size: 15px;
+  color: #262626;
+  line-height: 5px;
+  transition: .5s;
+}
+
+.social-links > ul li a
+{
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  text-align: center;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+  transition: .5s;
+  box-shadow: -5px 5px 2px rgba(0,0,0,.5);
+  top: 70px;
+}
+.social-links > ul li a:before
+{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+
+}
+.social-links > ul li a:after
+{
+  content: '';
+  position: absolute;
+  bottom:  -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+.social-links > ul li a:hover
+{
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
+      box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+.social-links > ul li:hover .fa
+{
+  color: #fff
+}
+.social-links > ul li:hover:nth-child(1) a
+{
+  background: #3b5998;
+}
+.social-links > ul li:hover:nth-child(1) a:before
+{
+  background: #2e4a86;
+}
+
+.social-links > ul li:hover:nth-child(1) a:after
+{
+  background: #4a69ad;
+}
+
+.social-links > ul li:hover:nth-child(2) a
+{
+  background:  #55acee;
+}
+.social-links > ul li:hover:nth-child(2) a:before
+{
+  background: #4184b7;
+}
+
+.social-links > ul li:hover:nth-child(2) a:after
+{
+  background: #4d9fde;
+}
+
+
+
+.social-links > ul li:hover:nth-child(3) a
+{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.social-links > ul li:hover:nth-child(3) a:before
+{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.social-links > ul li:hover:nth-child(3) a:after
+{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+
+.social-links > ul li:hover:nth-child(4) a
+{
+  background:#007bb5;
+}
+.social-links > ul li:hover:nth-child(4) a:before
+{
+  background: #036aa0;
+}
+
+.social-links > ul li:hover:nth-child(4) a:after
+{
+  background: #0d82bf;
+}
+.social-links > ul li:hover:nth-child(5) a
+{
+  background:#dd4b39;
+}
+.social-links > ul li:hover:nth-child(5) a:before
+{
+  background: #d02d4c;
+}
+
+.social-links > ul li:hover:nth-child(5) a:after
+{
+  background: #f1395c;
+}
+
+
+
+
+
+
+
+
+
+*{
+  margin:0;
+  padding: 0;;
+  box-sizing: border-box;
+}
+
+body{
+      
+      font: 13px 'Montserrat', sans-serif;
+      line-height: 1.8;
+      color: black;
+
+}
+
+
+h1{
+
+font-family: 'Knewave', cursive;
+color: white;
+font-weight: 2em;
+font-size: 4.5em;
+padding-top: 0.5em;
+
+
+}
+
+.Box1{
+
+  margin: 14px;
+  font-size: 30px;
+  width: 650px;
+  height: 300px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 1.5px;
+
+
+
+}
+
+  .navbar {
+      border: 0;
+      border-radius: 0;
+      letter-spacing: 5px;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.1);
+      margin-bottom: 0;
+      border-radius: 0;
+      transition:0.7s;
+
+  }
+
+    .bg-1 {
+      background-image: url("images/Pretoria.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: absolute;
+      background-size: cover;
+      height:950px;
+  }
+
+.navbar-nav > li a:hover {
+  background: skyblue;
+  color: #fff;
+}
+
+
+.navbar-nav a li{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-shadow: 2px solid black;
+
+}
+
+  .navbar-nav > li a:hover {
+      color: rgba(0,0,0,0.1) !important;
+
+  }
+
+   .container-fluid {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  
+
+footer {
+  background-color: #1c1c1c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .fa {
+  color: skyblue;
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 5px;
+}
+footer h3 {
+  padding-bottom: 10px;
+}
+footer .newsletter p {
+  padding-bottom: 10px;
+}
+footer .form-control {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  padding-bottom: 10px;
+}
+
+footer .form-control:focus,
+footer .form-control:hover {
+    color: #fff;
+    background: #806040;
+    border-color: transparent;
+}
+footer .input-group-addon {
+  background: #fff;
+}
+footer a, footer a:visited {
+  font-size: 14px;
+  color: #999;
+}
+footer a:hover {
+  color:  ;
+  text-decoration: none;
+}
+
+
+
+p{
+  
+  padding: 7px 0 7px 0;
+  font-weight: 500;
+  font-size: 11pt;
+  color: white;
+
+}
+
+
+.divider .divider-wrapper {
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+}
+.divider h2 {
+
+  padding-bottom: 4px;
+
+}
+
+.divider .divider-wrapper:hover {
+  bottom: 60px;
+  cursor: pointer;
+}
+.divider .divider-one {
+  background: ;
+}
+.divider .divider-two {
+  background: ;
+}
+.divider .divider-three {
+  background: ;
+}
+
+.divider .divider-wrapper:hover {
+  bottom: 60px;
+  cursor: pointer;
+}
+    .margin {
+
+      margin-bottom: 10px;
+
+    }
+
+.btn {
+   
+   padding-top: 3em;
+
+
+
+}
+
+  #container {
+    
+    margin: 0 auto;
+    text-align: center; /* for IE */
+  }
+
+  #Mydiv {
+    width: 600px;
+    height: 180px;
+    border: 1px solid white;
+    margin-top: 15em;
+
+  }

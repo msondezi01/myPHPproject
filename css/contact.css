@@ -1,0 +1,11 @@
+.controls{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+.form-group{
+  display: flex;
+  width: 650px;
+  color: green;
+}

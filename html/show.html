@@ -1,0 +1,30 @@
+<script>
+
+  var i = 0;
+  var images = [];
+  var time = "1500";
+
+  images[0]="accident.jpg";
+  images[1]="contract.jpg";
+  images[2]="divorce.png";
+  images[3]="leg.jpg";
+  images[4]="will.png";
+  images[5]="date.png";
+  images[6]="letter.png";
+
+  function displayImg(){
+    document.show.src = images[i];
+
+    if(i < images.length - 1){
+
+      i++;
+    }else{
+      i = 0;
+    }
+    setTimeout("displayImg()",time);
+  }
+
+  window.onload = displayImg;
+
+  </script>
+  <img name="show" width="400px" height="200px">

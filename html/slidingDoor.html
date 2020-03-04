@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+</head>
+<style>
+
+  #wrapper {
+  width: 748px !important;
+  height: 426px;
+  background-color: #9b9b9b;
+  margin: auto;
+  }
+  #leftdoor_inner{
+  background-color: skyblue;
+  width: 122px;
+  height: 244px;
+  opacity: 0.75;
+  margin: auto;
+  top: 76px;
+  left: -61px;
+  position: relative;
+  z-index: 2;
+  }
+  #leftdoor_outer{
+  background-color: #ffea00;
+  width: 122px;
+  height: 244px;
+  opacity: 0.75;
+  margin: auto;
+  top: -168px;
+  left: -151px;
+  position: relative;
+  z-index: 1;
+  }
+  #rightdoor_inner{
+  background-color: skyblue;
+  width: 122px;
+  height: 244px;
+  opacity: 0.75;
+  margin: auto;
+  top: -412px;
+  left: 61px;
+  position: relative;
+  z-index: 2;
+  }
+  #rightdoor_outer{
+  background-color: #ffea00;
+  width: 122px;
+  height: 244px;
+  opacity: 0.75;
+  margin: auto;
+  top: -656px;
+  left: 151px;
+  position: relative;
+  z-index: 1;
+  }
+  #open_doors{
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  z-index: 5;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  }
+
+  #close_doors{
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  }
+
+  a#open_doors:before {
+  content: "open doors";
+  }
+
+  a#close_doors:before {
+  content: "close doors";
+  }
+</style>
+
+
+  <body>
+
+<br>
+<br>
+<div id="wrapper">
+<div id="leftdoor_inner"></div>
+<div id="leftdoor_outer"></div>
+<div id="rightdoor_inner"></div>
+<div id="rightdoor_outer"></div>
+<a id="open_doors" href="#"></a>
+<a id="close_doors" href="#"></a>
+</div>
+      </section>
+   </header>
+
+
+
+<script src="js/jquery.js"></script>
+<script>
+  $(function() {
+    $('body').fadeOut(3000).show(3000)
+  });
+
+
+  $(document).ready(function(){
+    $("#open_doors").click(function(){
+    $("#leftdoor_inner").animate({"left": "-=164px"}, 'slow');
+    $("#leftdoor_outer").animate({"left": "-=74px"},'slow');
+    $("#rightdoor_inner").animate({"left": "+=164px"},'slow');
+    $("#rightdoor_outer").animate({"left": "+=74px"},'slow');
+    $("#open_doors").hide(3000);
+    $("#close_doors").show();
+    });
+    $("#close_doors").click(function(){
+    $("#leftdoor_inner").animate({"left": "+=164px"},'slow');
+    $("#leftdoor_outer").animate({"left": "+=74px"},'slow');
+    $("#rightdoor_inner").animate({"left": "-=164px"},'slow');
+    $("#rightdoor_outer").animate({"left": "-=74px"},'slow');
+    $("#close_doors").hide(3000);
+    $("#open_doors").show();
+  });
+  });
+</script>
+
+</body>
+
+</html>

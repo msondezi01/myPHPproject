@@ -1,0 +1,116 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  line-height: 1.8;
+
+}
+
+.main {
+
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+
+}
+
+.header{
+  opacity: 0.7;
+  background-color: blue; 
+
+}
+
+ li {
+
+    list-style-type: none;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 70px;
+
+  }
+
+   .menu{
+
+        margin-bottom: 0;
+        letter-spacing: 40px;
+        top: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.1);
+        margin-bottom: 0;
+        border-radius: 0;
+        transition:0.7s;
+        height: 5em;
+
+  }
+
+
+.divider {
+  color: #fff;
+  text-align: center;
+}
+.divider .fa {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 32px;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  text-transform: capitalize;
+}
+.divider h2 {
+  padding-bottom: 4px;
+}
+.divider .divider-wrapper {
+  padding: 40px 20px 40px 20px;
+  position: relative;
+  bottom: 40px;
+  transition: all 0.4s ease-in;
+}
+.divider .divider-wrapper:hover {
+  bottom: 60px;
+  cursor: pointer;
+}
+.divider .divider-one {
+  background: #c14000;
+}
+.divider .divider-two {
+  background: #009988;
+}
+.divider .divider-three {
+  background: #ffa500;
+}
+
+.divider .divider-four {
+  background: #1c1c1c;
+}
+
+
+
+
+   .menu li a:hover {
+
+      color: skyblue !important;
+
+  }
+
+  div.inline { 
+    float:left;
+     }
+  .clearBoth {
+    clear:both; 
+
+     }
+
+  div { border: 1px solid #CCC; }
